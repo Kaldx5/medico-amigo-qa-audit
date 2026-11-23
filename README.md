@@ -4,6 +4,10 @@ Khaled Alrefai · Android · Istanbul · 23 November 2026
 
 [Web edition](https://kaldx5.github.io/medico-amigo-qa-audit/) · [Illustrated PDF](field-notes.pdf)
 
+## Sign-in across two visits
+
+<table><tr><td align="center" width="33%"><a href="assets/review/first.png"><img src="assets/review/first.png" alt="First visit. I could not see a language switch." width="230"></a><br>First visit. I could not see a language switch.</td><td align="center" width="33%"><a href="assets/review/picker.png"><img src="assets/review/picker.png" alt="Google opened its account picker. I chose my account and returned to sign-in." width="230"></a><br>Google opened its account picker. I chose my account and returned to sign-in.</td><td align="center" width="33%"><a href="assets/review/language.png"><img src="assets/review/language.png" alt="After reopening. The EN / PT switch appeared." width="230"></a><br>After reopening. The EN / PT switch appeared.</td></tr></table>
+
 I opened Médico Amigo to see how a patient requests medication. I reached the sign-in choices and the NIF verification flow. I do not have a Portuguese tax number of my own, so my review ends before the request.
 
 ## Choosing my Google account
@@ -23,10 +27,6 @@ I could not see a language switch the first time. After I removed the app from r
 Show the NIF for review before requesting a code. I would give the patient a chance to correct a mistyped digit and make the effect of the next tap explicit.
 
 ![Observed Google sign-in and proposed code verification flows](report-preview.png)
-
-## Sign-in across two visits
-
-<table><tr><td align="center" width="33%"><a href="assets/review/first.png"><img src="assets/review/first.png" alt="First visit. I could not see a language switch." width="230"></a><br>First visit. I could not see a language switch.</td><td align="center" width="33%"><a href="assets/review/picker.png"><img src="assets/review/picker.png" alt="Google opened its account picker. I chose my account and returned to sign-in." width="230"></a><br>Google opened its account picker. I chose my account and returned to sign-in.</td><td align="center" width="33%"><a href="assets/review/language.png"><img src="assets/review/language.png" alt="After reopening. The EN / PT switch appeared." width="230"></a><br>After reopening. The EN / PT switch appeared.</td></tr></table>
 
 ### Reading the status bar
 
