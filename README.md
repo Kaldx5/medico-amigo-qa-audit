@@ -1,54 +1,45 @@
-[![Before the medicine request](report-sections/introduction.png)](https://kaldx5.github.io/medico-amigo-qa-audit/)
+# Before the medicine request
 
-[![Choosing my Google account](report-sections/google-sign-in.png)](https://kaldx5.github.io/medico-amigo-qa-audit/#note-0)
+Khaled Alrefai · Android · Istanbul · 23 November 2026
 
-[![One step back](report-sections/back-navigation.png)](https://kaldx5.github.io/medico-amigo-qa-audit/#note-1)
-
-[![Finding English on my second visit](report-sections/language-selection.png)](https://kaldx5.github.io/medico-amigo-qa-audit/#note-2)
-
-[![Let me check before sending](report-sections/verification-review.png)](https://kaldx5.github.io/medico-amigo-qa-audit/#review)
-
-[Open the interactive edition](https://kaldx5.github.io/medico-amigo-qa-audit/) · [Download the PDF](field-notes.pdf)
-
-<details>
-<summary>Read as text</summary>
-
-### Before the medicine request
+[Web edition](https://kaldx5.github.io/medico-amigo-qa-audit/) · [Illustrated PDF](field-notes.pdf)
 
 I opened Médico Amigo to see how a patient requests medication. I reached the sign-in choices and the NIF verification flow. I do not have a Portuguese tax number of my own, so my review ends before the request.
 
-### Choosing my Google account
+## Choosing my Google account
 
 I tapped Google, picked my account and found myself looking at the same two buttons again. I saw no message. Should I retry, or did I need a NIF anyway? One line explaining the next step would have helped.
 
-Sign-in choices → Account picker → Sign-in choices
-
-### One step back
+## One step back
 
 On the NIF entry screen I changed my mind and pressed Back to try Google. I ended up outside the app. I reopened it to get back to the two choices I had just seen.
 
-NIF entry → Back → Outside the app
-
-I expected Back to take me to the sign-in choices, so switching methods would take a single tap.
-
-### Finding English on my second visit
+## Finding English on my second visit
 
 I could not see a language switch the first time. After I removed the app from recent apps and reopened it, EN / PT appeared. The NIF button wording changed too. I wanted that language choice before I had to interpret the first prompt.
 
-First opening → Reopened app → EN / PT visible
+## One change I would make
 
-### Reading the Android status bar
+Show the NIF for review before requesting a code. I would give the patient a chance to correct a mistyped digit and make the effect of the next tap explicit.
 
-The clock and connection icons looked faint against the pale background. I would increase their contrast so I could check the time or connection at a glance.
+![Observed Google sign-in and proposed code verification flows](report-preview.png)
 
-### Let me check before sending
+## Sign-in across two visits
+
+<table><tr><td align="center" width="33%"><a href="assets/review/first.png"><img src="assets/review/first.png" alt="First visit. I could not see a language switch." width="230"></a><br>First visit. I could not see a language switch.</td><td align="center" width="33%"><a href="assets/review/picker.png"><img src="assets/review/picker.png" alt="Google opened its account picker. I chose my account and returned to sign-in." width="230"></a><br>Google opened its account picker. I chose my account and returned to sign-in.</td><td align="center" width="33%"><a href="assets/review/language.png"><img src="assets/review/language.png" alt="After reopening. The EN / PT switch appeared." width="230"></a><br>After reopening. The EN / PT switch appeared.</td></tr></table>
+
+### Reading the status bar
+
+The clock and connection icons looked faint on my phone. Stronger contrast would make them easier to read at a glance.
+
+![Status bar crop showing faint system icons](assets/review/contrast.png)
+
+## Before sending a code
 
 I liked that the field stopped at nine digits and gave feedback on invalid input. What surprised me was going from “Continuar” to a message saying a code had been sent. I had expected one more chance to review the digits. I stopped at that screen.
 
-### One feature I would add
+<table><tr><td align="center" width="33%"><a href="assets/review/validation.png"><img src="assets/review/validation.png" alt="The field rejected the all-zero entry." width="230"></a><br>The field rejected the all-zero entry.</td><td align="center" width="33%"><a href="assets/review/entry.png"><img src="assets/review/entry.png" alt="A validation message was also visible during my second entry." width="230"></a><br>A validation message was also visible during my second entry.</td><td align="center" width="33%"><a href="assets/review/code.png"><img src="assets/review/code.png" alt="Later I reached the code screen. The destination is covered." width="230"></a><br>Later I reached the code screen. The destination is covered.</td></tr></table>
 
-Enter NIF → Review or edit digits → Send verification code
+### Where I stopped
 
-I would show the NIF for review with an Edit option and label the next button “Send verification code”. With a demo profile I would try changing a medicine selection before submitting and check how the app tells me when a clinician receives it.
-
-</details>
+With a demo profile I would change a medicine selection before confirming it and check how the app tells me when a clinician receives the request.
